@@ -1,2 +1,6 @@
 413 c
 406 c
+
+# get min idx
+auto min_it=min_element(ans.begin(),ans.end());
+int min_idx=distance(ans.begin(),min_it);
